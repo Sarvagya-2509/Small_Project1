@@ -1,0 +1,85 @@
+body{
+    margin:0;
+}
+.navbar{
+    padding:4px;
+    height: 50px;
+    width:auto; 
+    background-color: bisque;
+    text-align: center;
+}
+.navbar p {
+    margin:0;
+}
+.Colour {
+    display: flex;
+    flex-wrap: wrap;             /* box neeche wrap honge */
+    justify-content: center;
+    align-content: center;
+    gap: 40px;
+    width: 780px;                /* 3 box (3x200) + 2 gap (2x40) + borders ke liye thodi jagah */
+    margin: 0 auto;              /* container ko page ke center me rakhega */
+    height: 680px;
+}
+.grey {
+    border: 2px solid black;
+    height:200px;
+    width:200px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    background-color:grey;
+}
+.black {
+    border: 2px solid black;
+    height:200px;
+    width:200px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    background-color:black;
+    color:white;
+}
+.green {
+    border: 2px solid black;
+    height:200px;
+    width:200px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    background-color:green;
+}
+.red {
+    border: 2px solid black;
+    height:200px;
+    width:200px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    background-color:red;
+}
+.blue {
+    border: 2px solid black;
+    height:200px;
+    width:200px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    background-color:blue;
+}
+.yellow {
+    border: 2px solid black;
+    height:200px;
+    width:200px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    background-color:yellow;
+}
+ 
