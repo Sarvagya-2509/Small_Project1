@@ -1,0 +1,37 @@
+body{
+    background-color: black;
+
+}
+.bdy{
+    height:1000px;
+    width:1500px;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.click{
+    cursor:pointer;
+}
+.img{
+    height:250px;
+    width:250px;
+}
+.img img {
+    height: 250px;
+    width: 250px;
+    object-fit: cover;
+    border-radius: 8px;
+}
+.card{
+    height:400px;
+    width:300px;
+    /* background-color: white; */
+    border-radius: 8px;
+    color: black;   
+    display:flex; 
+    flex-direction: column;  
+    justify-content: center;
+    align-items: center;
+    font-size: large;
+}
