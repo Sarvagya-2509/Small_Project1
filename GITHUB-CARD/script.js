@@ -27,6 +27,8 @@ button.addEventListener('click',function(e){
 
         img.src = data.avatar_url;
 
+        imgg.innerHTML = ''; // Removes previous image
+
         imgg.appendChild(img);
         
         text.innerHTML=`The number of followers are: ${data.followers}`;
